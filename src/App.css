@@ -1,38 +1,116 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: #8E3200;
+}
+
+h1 {
   text-align: center;
+  color: #D8AC9C;
+  margin-top: 3%; 
+  font-size: 5vw; 
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  border: 9px dotted #ccc;
+  padding: 2%;
+  text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Name {
+  text-align: left;
+  margin-left: 15%; 
+  font-size: 2.5vw; 
+  font-family: "Merriweather", serif;
+  margin-bottom: 0.5%;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.District {
+  text-align: right;
+  margin-left: 15%; 
+  font-size: 2.5vw; 
+  font-family: "Merriweather", serif;
+  margin-bottom: 0.5%;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 3%; 
+  margin-top: 3%; 
 }
 
-.App-link {
-  color: #61dafb;
+.form-container {
+  width: 80%; 
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group {
+  margin-bottom: 3%; 
+}
+
+.Namelbl {
+  display: inline-block;
+  margin-right: 5%; 
+  font-weight: bold;
+  margin-left: 25%; 
+  font-size: 1.75vw; 
+  margin-top: 1%; 
+  font-family: "Merriweather", serif;
+}
+
+.Districtlbl {
+  display: inline-block;
+  margin-left: 12.5%; 
+  font-weight: bold;
+  font-size: 1.75vw; 
+  margin-top: 1%; 
+  font-family: "Merriweather", serif;
+}
+
+.Namelbl input,
+.Districtlbl input {
+  width: 90%; 
+  padding: 3%; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-left: 45%; 
+  border-radius: 2vw; 
+  background-color: #D7A86E;
+  color: black;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 3%; 
+  font-size: 2vw; 
+  padding: 1%; 
+  font-family: "Merriweather", serif;
+}
+
+button:hover {
+  background-color: #D8AC9C;
+}
+
+.Display {
+  background-color: #D8AC9C;
+  color: black;
+  text-align: center;
+  width: 30%; 
+  height: auto; 
+  margin-left: 35%; 
+  border-radius: 2vw; 
+  margin-top: 3%; 
+  font-family: "Merriweather", serif;
+  padding: 0.75%;
+}
+
+.Username,
+.UserDistrict,
+.User {
+  margin-top: 2%; 
+  font-weight: bold;
 }
